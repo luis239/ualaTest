@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogTheme.Loading" />
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+
+        <!-- <item name="colorButtonNormal">@color/colorPrimary</item>-->
+        <item name="colorControlActivated">@color/purple_700</item>
+
+        <item name="android:textColorPrimary">@color/purple_200</item>
+
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="android:windowBackground">@color/backgroundColorLoading</item>
+
+
+    </style>
+
+</resources>
