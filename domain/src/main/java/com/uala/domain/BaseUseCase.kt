@@ -1,6 +1,5 @@
 package com.uala.domain
 
-import com.caliente.domain.Failure
 import kotlinx.coroutines.*
 
 abstract class BaseUseCase<out Type, in Params> where Type : Any {

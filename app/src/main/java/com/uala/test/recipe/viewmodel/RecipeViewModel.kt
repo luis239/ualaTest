@@ -1,7 +1,7 @@
 package com.uala.test.viewmodel
 
 import androidx.lifecycle.MutableLiveData
-import com.caliente.domain.Failure
+import com.uala.domain.Failure
 import com.uala.domain.recipe.SearchRecipeUseCase
 import com.uala.domain.recipe.model.MealResponseModel
 import com.uala.test.BaseViewModel

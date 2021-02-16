@@ -1,6 +1,6 @@
 package com.uala.domain.recipe
 
-import com.caliente.domain.Failure
+import com.uala.domain.Failure
 import com.uala.domain.BaseUseCase
 import com.uala.domain.Either
 import com.uala.domain.recipe.model.MealResponseModel

@@ -1,4 +1,4 @@
-package com.caliente.domain
+package com.uala.domain
 
 sealed class Failure(val exception: Exception = Exception("Failure")) {
     object None : Failure()
